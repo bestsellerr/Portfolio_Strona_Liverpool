@@ -45,7 +45,7 @@ Strona jest dostępna online:
 ## 🔹 Kontakt i portfolio
 
 - **GitHub:** [https://github.com/bestsellerr](https://github.com/bestsellerr)  
-- **E-mail:** bestsellerr@example.com  
+- **E-mail:** mikolajselerski@gmail.com  
 
 ---
 
