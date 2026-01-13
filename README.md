@@ -29,7 +29,7 @@ Projekt pokazuje **umiejętności w HTML, CSS i JavaScript** oraz wykorzystanie 
 
 ## 🔹 Screenshot
 
-![Screenshot strony](images/strona.png)
+![Screenshot strony](images/strona1.png)
 
 
 
