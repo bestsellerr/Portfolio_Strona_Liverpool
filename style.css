@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('images/anfield.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img.logo {
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.controls {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+select {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.stats div {
+    text-align: center;
+    min-width: 100px;
+    transition: transform 0.2s, background-color 0.2s;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.stats div:hover {
+    transform: translateY(-3px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.stats div span {
+    display: block;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ff0000;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+th {
+    background-color: rgba(255, 0, 0, 0.8);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+th::after {
+    content: "⬍";
+    font-size: 0.7em;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+th.asc::after { content: "⬆"; }
+th.desc::after { content: "⬇"; }
+th:hover { background-color: #ff6666; }
+
+tbody tr:nth-child(even) { background-color: rgba(255, 255, 255, 0.1); }
+
+tfoot, footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #ff6666;
+}
+
+/* kolorowanie wyników w tabeli */
+tbody tr td:nth-child(6).W { background-color: rgba(0, 128, 0, 0.3); }
+tbody tr td:nth-child(6).D { background-color: rgba(255, 255, 0, 0.3); color: #000; }
+tbody tr td:nth-child(6).L { background-color: rgba(255, 0, 0, 0.3); }
