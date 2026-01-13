@@ -31,7 +31,7 @@ Projekt pokazuje **umiejętności w HTML, CSS i JavaScript** oraz wykorzystanie 
 
 ![Screenshot strony](images/strona1.png)
 
-
+> Teraz screenshot pokazuje najnowszą wersję strony.  
 
 ---
 
@@ -45,7 +45,7 @@ Strona jest dostępna online:
 ## 🔹 Kontakt i portfolio
 
 - **GitHub:** [https://github.com/bestsellerr](https://github.com/bestsellerr)  
-- **E-mail:** mikolajselerski@gmail.com   
+- **E-mail:** bestsellerr@example.com  
 
 ---
 
@@ -55,8 +55,7 @@ Strona jest dostępna online:
 
 ```bash
 git clone https://github.com/bestsellerr/Strona-Liverpool.git
-
+```
 2.Otwórz index.html w przeglądarce lub uruchom Live Server w VSCode.
 
 3.Gotowe – strona działa lokalnie.
-
