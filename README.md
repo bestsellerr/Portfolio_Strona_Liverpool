@@ -56,6 +56,6 @@ Strona jest dostępna online:
 ```bash
 git clone https://github.com/bestsellerr/Strona-Liverpool.git
 ```
-2.Otwórz index.html w przeglądarce lub uruchom Live Server w VSCode.
+  2. Otwórz index.html w przeglądarce lub uruchom Live Server w VSCode.
 
-3.Gotowe – strona działa lokalnie.
+  3. Gotowe – strona działa lokalnie.
